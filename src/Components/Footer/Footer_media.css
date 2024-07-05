@@ -1,0 +1,79 @@
+@media (max-width:785px) {
+
+
+    .footer-headline-left-div :nth-child(1) {
+        letter-spacing: 0.17em;
+        font-size: 3.2vw;
+        text-align: left;
+        font-family: Questrial;
+    }
+
+    .footer-headline-left-div :nth-child(2) {
+        letter-spacing: 0.05em;
+        font-size: 3.8vw;
+        text-align: left;
+        font-family: Cardo;
+    }
+
+
+    /* ----------------- */
+
+   
+
+}
+
+
+/* _______________________________________________ */
+
+@media (max-width:400px) {
+
+
+
+    .footer-headline-left-div :nth-child(1) {
+        letter-spacing: 0.17em;
+        font-size: 4vw;
+        text-align: left;
+        font-family: Questrial;
+    }
+
+    .footer-headline-left-div :nth-child(2) {
+        letter-spacing: 0.05em;
+        font-size: 5vw;
+        text-align: left;
+        font-family: Cardo;
+    }
+
+    /* ----------------------- */
+
+    .address-div h3 {
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        font-family: PlayfairDisplay;
+        font-size: 5vw;
+        font-weight: 400;
+    }
+    
+    .address-div p {
+        letter-spacing: 0.11em;
+        line-height: 1.2;
+        font-size: 3vw;
+        font-family: QuattrocentoSans;
+    }
+
+
+    .to-top-div {
+        width: 100%;
+        background-color: #1C1C1C;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        cursor: pointer;
+        font-family: PlayfairDisplay;
+        letter-spacing: 0.1rem;
+
+    }
+
+}

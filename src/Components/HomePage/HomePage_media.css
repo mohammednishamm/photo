@@ -1,0 +1,90 @@
+@media (max-width:785px) {
+
+    .home-main {
+        width: 100%;
+    }
+
+    .readmore-content-top-div {
+        /* background-color: yellow; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-description-div {
+        text-align: center;
+    }
+
+    .bottom-description-div {
+        text-align: center;
+    }
+
+
+    .gapView-div {
+        background-color: transparent;
+    }
+
+    .gapView-div h1 {
+        color: white;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        font-size: 6vw;
+        text-align: center;
+        font-family: Cardo;
+    }
+
+
+    .our-offerings-div {
+        max-height: 480px;
+
+    }
+
+    .our-offerings-div h1 {
+        font-size: 6.5vw;
+    }
+
+    .our-offerings-div :nth-child(2) {
+
+        font-size: 10px;
+    }
+
+    .our-offerings-div :nth-child(3) {
+        line-height: 1.8;
+        letter-spacing: 0.05em;
+        font-family: Questrial;
+        font-size: 2.5vw;
+    }
+
+
+
+
+
+    .review-description-div p {
+
+        font-size: 12px;
+
+    }
+
+}
+
+
+
+/* ___________________________________________ */
+
+@media (max-width:400px) {
+    .home-main {
+        width: auto;
+    }
+
+    .review-main-div {
+        flex: 1;
+    }
+
+    .video-div {
+        height: 270px;
+    }
+
+    .wedding-video {
+        width: 100%;
+    }
+
+}

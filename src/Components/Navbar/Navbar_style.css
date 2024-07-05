@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts/Cardo-Regular.ttf);
+}
+
+
+:root {
+    --primary-color: #292929;
+}
+
+
+.navigation-bar {
+    background-color: var(--primary-color);
+    /* background-color: yellowgreen; */
+    flex: 1;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute ;
+    z-index: 10;
+}
+
+.navbar-brand{
+    text-decoration: none;
+}
+
+
+.logo-div {
+    /* background-color: rgb(116, 116, 62); */
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-div h3 {
+    margin-left: 30px;
+    font-family: Cardo;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.41em;
+    font-size: 1.2pc;
+    margin-top: 10px;
+}
+
+.navigation-links-div {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+}
+
+.navigation-links-div span {
+    color: white;
+    flex: 1;
+}
+
+.option-button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-item {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1em;
+    /* cursor: pointer; */
+}
+
+
+.option-icon-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-options-icon {
+    display: none;
+}
+
+
+
+/* _____________________________________________________________________________________
+
+Nav Modal
+________________________________________________________________________________________*/
+
+
+.nav-modal {
+    background: white;
+    z-index: 1030;
+    position: relative;
+}
+
+.nav-modal-head {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-modal-head h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Cardo;
+    letter-spacing: 0.41em;
+    margin-top: 5px;
+}
+
+.nav-modal-head img {
+    width: 17px;
+    margin-right: 14px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.navModal-content-div {
+    flex: 1;
+    background: rgb(248, 248, 248);
+}
+
+.modal-navlinks-div {
+    background-color: rrgb(248, 248, 248);
+    width: 100%;
+    height: 380px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15%;
+    /* padding-top: 15%; */
+
+}
+
+.modal-navlinks-div .modal-nav-item {
+    font-family: Montserrat;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    letter-spacing: 0.1em;
+}
+
+.nav-Modal-footer {
+    /* background-color: rgb(56, 184, 184); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

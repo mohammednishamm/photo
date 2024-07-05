@@ -1,0 +1,34 @@
+@media (max-width:1030px) {
+    .service-ad-photos-div {
+
+        height: auto;
+    }
+}
+
+/* _____________________________________________________________
+
+*/
+@media (max-width:785px) {
+    .service-ad-photos-div {
+
+        height: auto;
+    }
+
+    .experience-description-div {
+        text-align: center;
+    }
+
+    .our-offering-sub-div :nth-child(3){
+        
+        width: 100%;
+    }
+}
+
+/* _____________________________________________________________ */
+@media (max-width:500px) {
+    .our-offering-main-div {
+        /* height: 500px;
+        font-size: 1vw; */
+    }
+   
+}

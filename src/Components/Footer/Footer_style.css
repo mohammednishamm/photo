@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+
+.to-top-div {
+    width: 100%;
+    background-color: #1C1C1C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: PlayfairDisplay;
+    letter-spacing: 0.1rem;
+    font-size: 1em;
+
+    &:hover {
+        background-color: #373737;
+    }
+}
+
+
+.footer-main-div {
+    background-color: white;
+}
+
+.footer-headlines-div {
+    /* background-color: chocolate; */
+}
+
+.footer-headline-left-div :nth-child(1) {
+    letter-spacing: 0.17em;
+    font-size: 2.2vw;
+    text-align: left;
+    font-family: Questrial;
+}
+
+.footer-headline-left-div :nth-child(2) {
+    letter-spacing: 0.05em;
+    font-size: 2.8vw;
+    text-align: left;
+    font-family: Cardo;
+}
+
+/* Right_Headline_ */
+.footer-headline-right-div {
+    /* background-color: aqua; */
+
+}
+
+.footer-headline-right-div :nth-child(1) {
+    margin-right: 13px;
+    font-family: Montserrat;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.footer-headline-right-div :nth-child(2) {
+    width: 5%;
+    height: 17%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.footer-images-div {
+    /* background-color: darkorange; */
+}
+
+.footer-images-div img {
+    width: 24%;
+}
+
+
+.address-mail-contact-main-div {}
+
+.mail-div {
+    font-family: PlayfairDisplay;
+    font-style: italic;
+}
+
+.address-div h3 {
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: PlayfairDisplay;
+    font-weight: 400;
+}
+
+.address-div p {
+    letter-spacing: 0.11em;
+    line-height: 1.2;
+    font-family: QuattrocentoSans;
+}
+
+
+/* --------- */
+.journal-div p {
+    line-height: 2.3;
+    font-size: 12px;
+    font-family: QuattrocentoSans;
+}
+
+.journal-div span {
+    line-height: 2.3;
+    font-size: 12px;
+    font-family: PlayfairDisplay;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.journal-div img {
+    margin-left: 10px;
+    width: 13%;
+    cursor: pointer;
+}
+
+
+.footer-bottom-div {
+    background-color: #1C1C1C;
+    color: white;
+    font-family: PlayfairDisplay;
+    font-size: 12px;
+}

@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts//Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.services-back-image {
+    background:linear-gradient(rgba(0, 0, 0, 0.264), rgba(0, 0, 0, 0.264)), url(./images/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    filter: grayscale(100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-backImage {
+    position: fixed;
+}
+
+/* _______________________________________________________________________ */
+
+.sevices-main {
+    background: transparent;
+    width: 100%;
+    position: relative;
+}
+
+/* ___________________________________________________________________ */
+
+.service-ad-photos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    overflow: hidden;
+    height: 800px;
+}
+.service-ad-photos-div img{
+ width: 100%;
+}
+
+.services-logo-text {
+    color: white;
+    font-size: 5.5vw;
+    letter-spacing: 0.2em;
+    font-family: PlayfairDisplay;
+    position: absolute;
+}
+/* ________________________________________________________________ */
+
+
+.experience-main-div{
+    background-color: #292929;
+}
+
+.experience-description-div{
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-evenly;
+}
+
+.experience-description-div h1{
+    line-height: 1.9;
+    letter-spacing: 0.2em;
+    font-family: Cardo;
+}
+.experience-description-div p{
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+}
+
+/* __________________________________________________________________________________ */
+
+
+.our-offering-main-div{
+background-color: #D4CFCB;
+}
+
+.our-offering-sub-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our-offering-sub-div :nth-child(1){
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+    font-weight: 400;
+}
+.our-offering-sub-div :nth-child(2){
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Montserrat;
+}
+.our-offering-sub-div :nth-child(3){
+    line-height: 1.6;
+    letter-spacing: 0.15em;
+    font-family: QuattrocentoSans;
+    font-size: 15px;
+    padding: 20px;
+    /* width: 70%; */
+}
+.our-offering-sub-div :nth-child(4){
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+}
+
+
+/* ___________________________________________________________________________ */
+
+
+.FAQ-main-div{
+    background-color: #292929;
+}
+
+.FAQ-decription-div h1{
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+.FAQ-decription-div p{
+    letter-spacing: 0.05em;
+    font-family: QuattrocentoSans;
+}
+
+
+/* _________________________________________________________ */
+
+.inquire-sub-div{
+color: white;
+}
+.inquire-sub-div h1{
+    letter-spacing: 0.05em;
+    font-family: Cardo;
+}
+.inquire-sub-div span{
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+    cursor: pointer;
+}
+.inquire-sub-div img{
+margin-left: 20px;
+cursor: pointer;
+}

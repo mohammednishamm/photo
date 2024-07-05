@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts//Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+.blogPage-back-image-div {
+    background: linear-gradient(rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.166)), url(./images/shelby-deeter--XlBjdtRqK8-unsplash\ \(1\).jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    filter: grayscale(100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+}
+
+.blog-backImage {
+    position: fixed;
+}
+
+/* ______________________________________________________ */
+
+
+.blog-main {
+    position: relative;
+
+}
+
+/* _______________________________________ */
+
+
+.blog-title-main-div {
+    height: 550px;
+}
+
+.line-div {
+    width: 75px;
+    border: 1px solid white;
+}
+
+.blog-title-sub-div {
+    color: white;
+}
+
+.blog-title-sub-div span {
+    letter-spacing: 0.25em;
+    line-height: 1.8;
+    font-size: 9px;
+    font-family: Montserrat;
+}
+
+.blog-title-sub-div p {
+    letter-spacing: 0.35em;
+    line-height: 1.2;
+    font-family: Questrial;
+}
+
+.blog-title-sub-div h1 {
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    font-family: Cardo;
+}
+
+/* ___________________________________________________________________ */
+
+
+.work-history-main-div {
+    background-color: #D4CFCB;
+}
+
+.work-history-sub-div {
+    /* background-color: yellow; */
+
+}
+
+.workHistory-title-div {
+    /* background-color: violet; */
+}
+
+.workHistory-title-div :nth-child(1) {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: 3.5;
+    font-family: Questrial;
+}
+
+.workHistory-title-div :nth-child(2) {
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+    text-transform: uppercase;
+}
+
+.workHistory-title-div :nth-child(2):hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.workHistory-title-div :nth-child(4) {
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+}
+
+.filled-in-link {
+    letter-spacing: 0.3em !important;
+    cursor: pointer;
+}
+
+.filled-in-link:hover {
+    text-decoration: underline;
+    opacity: 70%;
+    color: grey;
+}
+
+.work-history-image-div {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.work-history-image-div img {
+    width: 100%;
+}
+
+.work-history-bottom-div {
+    /* background-color: yellowgreen; */
+}
+
+.work-history-bottom-div span {
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.work-history-bottom-div img {
+    width: 30px
+}
+
+.openPost-Line {
+    border-bottom: 1px solid black;
+
+}
+
+/* ____________________________________________________________________________________________ */
+
+.pagination-main-div{
+    background-color:#D4CFCB ;
+}

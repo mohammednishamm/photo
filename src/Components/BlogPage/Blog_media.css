@@ -1,0 +1,35 @@
+@media (max-width:785px) {
+    .blog-title-main-div{
+        height: auto;
+    }
+
+
+    .workHistory-title-div :nth-child(2) {
+        
+        font-size: 6vw;
+       
+    }
+
+    .workHistory-title-div :nth-child(4) {
+       font-size: 3vw;
+    }
+
+    .work-history-image-div{
+        height: auto;
+    }
+
+    .work-history-bottom-div {
+        /* background-color: yellowgreen; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .work-history-bottom-div span{
+       font-size: 12px;
+    }
+    .work-history-bottom-div div{
+        /* margin-right: 10px; */
+    }
+    .work-history-bottom-div img{
+    width: 22px;
+    }
+}

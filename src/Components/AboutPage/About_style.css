@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts//Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+.about-backside-image {
+    background: url(./images/michael-discenza-MxfcoxycH_Y-unsplash.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-backImage {
+    position: fixed;
+}
+
+/* __________________________________ */
+
+
+.aboutPage-main {
+    background: transparent;
+    width: 100%;
+    position: relative;
+}
+
+.about-potos-ad-div {
+    object-fit: fill;
+    overflow: hidden;
+    height: 550px;
+}
+.about-potos-ad-div img{
+   width: 100%;
+}
+.about-logo-text{
+    color: white;
+    font-size: 5.5vw;
+    letter-spacing: 0.3em;
+    font-family: PlayfairDisplay;
+    position: absolute;
+}
+
+
+/* ____________________________________________________________________ */
+
+.about-content-div {
+    background-color: #292929;
+
+}
+
+.about-content-top-div {
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.about-top-description-div {
+    /* background-color: cadetblue; */
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about-top-description-div h4 {
+    line-height: 1.2;
+    letter-spacing: 4px;
+    /* font-size: 26px; */
+    font-family: Cardo;
+}
+
+.about-top-description-div p {
+    font-family: Questrial;
+    line-height: 1.5;
+    /* font-size: 18px; */
+}
+
+.about-top-image-div {
+    /* background-color: violet; */
+
+}
+
+.about-top-image-div :nth-child(1) {
+    filter: grayscale(70%);
+}
+
+
+/* ________ */
+
+
+
+.about-bottom-image-div {
+    /* background-color: aqua; */
+    display: flex;
+}
+
+
+.about-bottom-description-div {
+    /* background-color: chartreuse; */
+
+}
+
+.about-bottom-description-div h2 {
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.about-bottom-description-div span {
+    line-height: 2.9;
+    letter-spacing: 0.5em;
+    font-size: 14px;
+    font-family: Questrial;
+}
+
+.about-bottom-description-div p {
+    font-family: QuattrocentoSans;
+    font-size: 12px;
+    line-height: 1.8;
+    letter-spacing: 0.20em;
+}
+
+/* _________________________________________________________________ */
+
+.about-gapview-div {}
+
+.about-gapview-div h1 {
+    color: white;
+    line-height: 2.1;
+    letter-spacing: 0.2em;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cardo;
+}
+
+/* ______________________________________________________________________________________ */
+
+.about-portfolio-div {
+    background-color: #292929;
+}
+
+.about-portfolio-left-div h1 {
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.about-portfolio-left-div span {
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.about-portfolio-left-div img {
+    cursor: pointer;
+margin-left: 20px;
+}

@@ -1,0 +1,332 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts//Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+
+
+.backside-image {
+    background: url(./images/freestocks-a1Fmxesw31g-unsplash.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    filter: grayscale(100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-image {
+    position: fixed
+}
+
+
+.home-main {
+    background: transparent;
+
+    width: 100%;
+    position: relative;
+}
+/* ________________________________________________________ */
+
+.potos-ad-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+
+}
+
+.ad-image {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.potos-ad-div h1{
+    color: white;
+    font-size: 5.5vw;
+    letter-spacing: 0.2em;
+    font-family: PlayfairDisplay;
+    position: absolute;
+}
+
+
+/*_________________________________________________________________________*/
+
+.readmore-content-div {
+    background-color: #292929;
+
+}
+
+.readmore-content-top-div {
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.top-description-div {
+    /* background-color: cadetblue; */
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.top-description-div h4 {
+    line-height: 1.2;
+    letter-spacing: 4px;
+    /* font-size: 26px; */
+    font-family: Cardo;
+}
+
+.top-description-div p {
+    font-family: Questrial;
+    line-height: 1.5;
+    /* font-size: 18px; */
+}
+
+.top-image-div {
+    /* background-color: violet; */
+
+}
+
+.top-image-div :nth-child(1) {
+    filter: grayscale(70%);
+}
+
+
+
+
+/* ________ */
+
+.readmore-content-bottom-div {
+    /* background-color: tomato; */
+}
+
+.bottom-image-div {
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.bottom-image-div img {}
+
+
+.bottom-description-div {
+    /* background-color: chartreuse; */
+
+}
+
+.bottom-description-div h2 {
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.bottom-description-div span {
+    line-height: 2.9;
+    letter-spacing: 0.5em;
+    font-size: 14px;
+    font-family: Questrial;
+}
+
+.bottom-description-div p {
+    font-family: QuattrocentoSans;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.bottom-description-div img {
+    cursor: pointer;
+}
+
+.readmore-text {
+    cursor: pointer;
+}
+
+/* ____________________________________________________________________ */
+
+.gapView-div {
+    /* background-color: yellow; */
+
+}
+
+.gapView-div h1 {
+    color: white;
+    line-height: 2.1;
+    letter-spacing: 0.2em;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cardo;
+}
+
+
+/* _______________________________________________________________________________ */
+
+.categories-offering-mainDiv {
+
+    background-color: #D4CFCB;
+
+}
+
+.categories-main-div {
+    /* background-color: violet; */
+}
+
+.categories-main-div h1 {
+    font-family: Cardo;
+}
+
+.categories-main-div p {
+    letter-spacing: 0.2em;
+    font-family: Questrial;
+}
+
+.categories-div img {
+    background-color: yellow;
+    /* width: 90%; */
+    filter: grayscale(40%);
+}
+
+
+/* ______________________________ */
+
+
+.our-offerings-div {}
+
+.our-offerings-div h1 {
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.our-offerings-div :nth-child(2) {
+    letter-spacing: 0.3em;
+    font-family: Questrial;
+    /* font-size: 1.1vw; */
+}
+
+.our-offerings-div :nth-child(3) {
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-family: Questrial;
+    /* font-size: 1.2vw; */
+}
+
+.our-offerings-div span {
+    letter-spacing: 0.344em;
+    font-family: Questrial;
+}
+
+/* _____________________________________________________ */
+
+
+.video-div {
+    background-color: black;
+}
+
+.wedding-video {
+    width: 90%;
+    filter: grayscale(60%);
+
+}
+
+.video-div h1 {
+    color: white;
+    letter-spacing: 0.3em;
+    font-family: Cardo;
+    position: absolute;
+
+    font-size: 8vw;
+}
+
+/* _________________________________________________________________________ */
+
+
+.review-main-div {
+    background-color: #292929;
+    flex: 1;
+}
+
+.review-image-div {
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.review-image-div :nth-child(1) {
+    width: 100%;
+}
+
+.review-image-div :nth-child(2) {
+    width: 100%;
+    filter: grayscale(30%);
+}
+
+.review-description-main-div {
+    /* background-color: chartreuse; */
+    color: white;
+
+}
+
+.review-description-main-div h1 {
+    line-height: 1.3;
+    color: white;
+    font-family: Cardo;
+}
+
+.description-image-des-div {
+    /* background-color: darkcyan; */
+    color: white;
+}
+
+.description-image-des-div img {}
+
+.review-description-div {
+    /* background-color: darkorange; */
+    color: white;
+   
+}
+
+.review-description-div p {
+    line-height: 1.8;
+    /* font-size: 1.8vw; */
+    letter-spacing: 0.05em;
+    font-family: QuattrocentoSans;
+    color: white;
+}
+
+.review-description-div h6 {
+    line-height: 1.8;
+    color: white;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+}
+
+.lets-talk-text{
+    line-height: 1.2;
+    letter-spacing: 0.4em;
+    font-family: Questrial;
+}
+
+.lets-talk-arrow{
+    margin-left: 10px;
+}

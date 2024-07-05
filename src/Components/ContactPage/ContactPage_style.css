@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(../../fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: QuattrocentoSans;
+    src: url(../../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+
+/* _____________________________________________________ */
+
+.contact-Ad-photos-div {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.contact-Ad-photos-div img {
+    width: 100%;
+}
+
+
+
+/* _____________________________________________________ */
+
+.contactUs-description-div {
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    line-height: 3;
+}
+
+.contactUs-description-div h1 {
+
+    font-family: Cardo;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+
+.contactUs-description-div span {
+
+    font-family: Questrial;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+}
+
+.contactUs-description-div p {
+
+    font-family: QuattrocentoSans;
+    line-height: 1.6;
+    letter-spacing: 0.15em;
+}
+
+/* ______________________________________________________________ */
+
+.contact-form-div {
+    background-color: #292929;
+    color: white;
+}
+
+.contact-form-sub-div {
+    /* background-color: blueviolet; */
+    line-height: 2;
+}
+
+.contact-form-sub-div label {
+    font-size: 20px;
+
+}
+
+.contact-form-sub-div input {
+    color: white;
+    outline: none;
+    background: transparent;
+    border-width: 0 0 2px 0;
+}
+
+.contact-form-sub-div select {
+    color: white;
+    outline: none;
+    background: none;
+    border-width: 0 0 2px 0;
+    border-radius: 0px !important;
+    padding: 4px;
+}
+
+.contact-form-sub-div option {
+    color: black !important;
+}
+
+
+
+.contact-form-sub-div textarea {
+    color: white;
+    outline: none;
+    background: transparent;
+    border-width: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+.form-button-div {}
+
+.form-button-div button {
+    background-color: #111111;
+    color: gray;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+}
+
+/* ________________________________________________________________ */
+
+
+.thanks-giving-box {
+    background-color: #292929;
+
+}
+
+.thanks-giving-box h2 {
+    color: white;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    font-family: Cardo;
+}
+
+.thanks-giving-box p {
+    color: white;
+    letter-spacing: 0.1em;
+    font-family: Questrial;
+}
